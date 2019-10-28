@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My easy Assessment</title>
+		<link rel="stylesheet" type="text/css" href="css_insaf.css">
+	</head>
+	<body>
+		<header>
+			<ul>
+				<li>link1</li>
+			</ul>
+		</header>
+		<div id="myInfo">
+			<h1>HTML is Eazy</h1>
+			<p>HyperText Markup Language (HTML) is the standard markup language for creating web pages and web applications.</p>
+			<input type="text" name="firstName" id="firstName">
+			<button id="button1">Add</button>
+		</div>
+		
+		<script src="jquery-3.4.1.min.js"></script>
+
+		<script type="text/javascript">
+			var text = document.getElementsById("firstName");
+			$("#button1").onclick(){
+				$("li").textContent = text;
+			}
+		</script>
+	</body>
+</html>
